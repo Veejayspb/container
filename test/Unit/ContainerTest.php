@@ -107,7 +107,7 @@ final class ContainerTest extends TestCase
         $this->assertTrue($actual);
     }
 
-    // Tests for different scenario ------------------------------------------------------------------------------------
+    // Tests for different scenarios -----------------------------------------------------------------------------------
 
     public function testGetNonexistent()
     {
@@ -174,7 +174,7 @@ final class ContainerTest extends TestCase
         $container->get(ServiceInterface::class);
     }
 
-    public function testNoninstantifiableClass()
+    public function testNoninstantiableClass()
     {
         $container = new Container;
 
